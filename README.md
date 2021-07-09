@@ -24,7 +24,9 @@ If it show "port 4567", you are success.
 ## Basic Principles
 
 1.Gaussian function
-2.Bayes' theorem
+2.Bayes' theorem<br/>
+
+
 ***python***
 ```
 Gaussian
@@ -39,9 +41,6 @@ new_mean =(1/(var1+var2))*(var2*mean1+var1*mean2)
 new_var =1/((1/var1)+(1/var2))
 return [new_mean, new_var]
 ```
-
-
-
 
 Overview of the Kalman Filter Algorithm Map
 
@@ -64,6 +63,8 @@ main.cpp, kalman_filter.cpp and tools.cpp are easier to finish.
 I spend a lot of time on Fusion EKF.cpp file.
 
 ## The Results
+
+
 Here is the simulator final state after running the EKL with dataset 1:
 ![](image2.png)
 Here is the simulator final state after running the EKL with dataset 2:
