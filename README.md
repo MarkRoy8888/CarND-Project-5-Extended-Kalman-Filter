@@ -23,11 +23,11 @@ If it show "port 4567", you are success.
 
 ## Basic Principles
 
-1.Gaussian function
+1.Gaussian function<br/>
 2.Bayes' theorem<br/>
 
 
-***python***
+***python code***
 ```
 Gaussian
 from math import *
